@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  default-backend:
+    build: .
+    ports:
+      - "8888:8080"

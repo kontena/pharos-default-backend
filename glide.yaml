@@ -1,0 +1,6 @@
+package: github.com/kontena/pharos-default-backend
+import:
+- package: github.com/TV4/graceful
+  version: ~0.3.2
+- package: github.com/gorilla/mux
+  version: ~1.6.1
