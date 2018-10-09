@@ -3,7 +3,7 @@ pipeline:
     group: docker-image
     image: plugins/docker
     secrets: [ docker_username, docker_password ]
-    repo: kontena/pharos-default-backend
+    repo: kontena/pharos-default-backend-amd64
     auto_tag: true
     when:
       event: tag
